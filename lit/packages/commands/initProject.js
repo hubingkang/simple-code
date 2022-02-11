@@ -21,6 +21,7 @@ const questions = [
         ],
     },
 ]
+
 module.exports = function initProject(cmd) {
 
     try {
@@ -179,9 +180,9 @@ function addTsconfig() {
 }
 
 
-const templateProjectPath = path.resolve(__dirname, `../temps/project`);
-// 下载模板
-await downloadTempFromRep(projectTempRepo, templateProjectPath);
+// const templateProjectPath = path.resolve(__dirname, `../temps/project`);
+// // 下载模板
+// await downloadTempFromRep(projectTempRepo, templateProjectPath);
 
 
 /**
